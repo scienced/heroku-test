@@ -1,0 +1,4 @@
+{
+  "host": "heroku-app.feathersjs.com",
+  "port": "PORT"
+}
