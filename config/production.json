@@ -1,4 +1,5 @@
 {
   "host": "heroku-app.feathersjs.com",
-  "port": "PORT"
+  "port": "PORT",
+  "postgres": process.env.DATABASE_URL
 }

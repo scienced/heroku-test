@@ -6,5 +6,6 @@
     "default": 10,
     "max": 50
   },
-  "nedb": "../data"
+  "nedb": "../data",
+  "postgres": "postgres://postgres:heroku@localhost:5432/postgres"
 }
