@@ -21,6 +21,9 @@ const sequelize = require('./sequelize');
 
 const app = express(feathers());
 
+console.log('Heroku db variable:');
+console.log(process.env.DATABASE_URL);
+
 // Load app configuration
 app.configure(configuration());
 // Enable CORS, security, compression, favicon and body parsing
