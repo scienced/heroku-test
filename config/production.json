@@ -1,5 +1,5 @@
 {
   "host": "forexly-dev.herokuapp.com",
   "port": "80",
-  "postgres": "process.env.DATABASE_URL"
+  "postgres": "DATABASE_URL"
 }
